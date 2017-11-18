@@ -1,0 +1,21 @@
+{
+	"name": "asteroids-master",
+	"version": "1.0.0",
+	"description": "asteroidsGame",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack",
+		"start:dev": "webpack-dev-server"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"uglify-es": "^3.1.8"
+	},
+	"devDependencies": {
+		"webpack": "^3.8.1",
+		"webpack-dev-server": "^2.9.4",
+		"uglifyjs-webpack-plugin": "^1.0.1"
+	}
+}
